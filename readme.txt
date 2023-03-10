@@ -4,7 +4,7 @@ Donate link: https://osowsky-webdesign.de
 Tags: wordpress, widget, shortcode, woocommerce
 Requires at least: 5.0
 Tested up to: 6.1.1
-Stable tag: 1.0.3
+Stable tag: 1.0.5
 Requires PHP: 8.0
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
