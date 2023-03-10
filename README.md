@@ -1,4 +1,4 @@
-# eventprime-scroll-widget
+# Count of Products in Category for WP WooCommerce 
 
 Contributors: Silvio Osowsky  
 Donate link: <https://osowsky-webdesign.de>  
