@@ -15,4 +15,4 @@ Achtung! Dies ist KEIN offizielles Plugin von Woocommerce!
 
 
 ShortCode:
-[category_product_count show_category_name="false" category="jacken"]
+[category_product_count show_category_name="false" title="jacken"]

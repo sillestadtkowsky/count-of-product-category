@@ -20,7 +20,7 @@ function category_product_count_shortcode( $atts ) {
     ), $atts, 'category_product_count' );
   
     // get category id
-    $category_id = get_term_by( 'slug', $atts['title'], 'product_cat' )->term_id;
+    $category_id = get_term_by( 'slug', wp_strip_all_tags($atts['title']), 'product_cat' )->term_id;
   
     // get products in category
     $args = array(
@@ -37,7 +37,7 @@ function category_product_count_shortcode( $atts ) {
   
     // build output string
     $output = '<div style="display: flex; align-items: center; justify-content: center;">';
-    if ( $atts['show_category_name'] == 'true' ) {
+    if ( wp_strip_all_tags($atts['show_category_name']) == 'true' ) {
         $output .= get_term_by('slug', $atts['title'], 'product_cat')->name . ' ';
     }
     $output .= '(' . $products->post_count . ')';
