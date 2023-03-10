@@ -36,11 +36,12 @@ function category_product_count_shortcode( $atts ) {
   $products = new WP_Query( $args );
 
   // build output string
-  $output = '';
+  $output = '<div style="display: flex; align-items: center; justify-content: center;">';
   if ( $atts['show_category_name'] == 'true' ) {
       $output .= $atts['category'] . ' ';
   }
   $output .= '(' . $products->post_count . ')';
+  $output .= '</div>';
 
   // return output
   return $output;
