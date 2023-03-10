@@ -2,8 +2,8 @@
 /**
 * Plugin Name: Count of Product Category for WP WooCommerce 
 * Plugin URI: https://osowsky-webdesign.de/plugins/count-of-product-category
-* Description: This plugin generates a text with the Count of Product Category IMPORTANT! This is clearly NOT an official plugin from Woocommerce
-* Version: 1.0.2
+* Description: This plugin generates a text with the Count of Product Category. IMPORTANT! This is clearly NOT an official plugin from Woocommerce
+* Version: 1.0.3
 * Requires at least: 5.8.0
 * Requires PHP:      8.0
 * Author: Silvio Osowsky
