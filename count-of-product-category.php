@@ -37,7 +37,7 @@ function category_product_count_shortcode( $atts ) {
 
   // build output string
   $output = '';
-  if ( $atts['show_category_name'] ) {
+  if ( $atts['show_category_name'] == 'true' ) {
       $output .= $atts['category'] . ' ';
   }
   $output .= '(' . $products->post_count . ')';
