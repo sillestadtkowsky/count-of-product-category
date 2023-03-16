@@ -2,7 +2,7 @@
 /**
 * Plugin Name: Count of Products in Category for WP WooCommerce 
 * Plugin URI: https://plugin.wp.osowsky-webdesign.de/count-of-products
-* Description: This plugin provides a shortcode that displays the count of products in a product category. IMPORTANT! This is clearly NOT an official plugin from Woocommerce.
+* Description: This plugin provides a shortcode that displays the count of products in a product category. You can use the shortcode on every page or post. IMPORTANT! This is clearly NOT an official plugin from Woocommerce.
 * Version: 1.0.5
 * Requires at least: 5.8.0
 * Requires PHP:      8.0
@@ -12,7 +12,7 @@
 * Author URI: https://osowsky-webdesign.de/
 */
 
-function category_product_count_shortcode( $atts ) {
+function so_category_product_count_shortcode( $atts ) {
     // shortcode attributes
     $atts = shortcode_atts( array(
         'title' => '',
@@ -46,4 +46,4 @@ function category_product_count_shortcode( $atts ) {
     // return output
     return $output;
   }
-  add_shortcode( 'category_product_count', 'category_product_count_shortcode' );
+  add_shortcode( 'so_cp_count', 'so_category_product_count_shortcode' );
