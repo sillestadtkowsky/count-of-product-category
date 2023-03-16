@@ -1,4 +1,4 @@
-=== Count of Products in Category ===
+=== Count of Products in One Category ===
 Contributors: Silvio Osowsky
 Tags: WooCommerce, shortcode, category, products
 Requires at least: 5.8.0
