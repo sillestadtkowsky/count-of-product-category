@@ -2,8 +2,8 @@
 Contributors: Silvio Osowsky
 Tags: WooCommerce, shortcode, category, products
 Requires at least: 5.8.0
-Tested up to: 5.9.1
-Stable tag: 1.0.5
+Tested up to: 6.1.1
+Stable tag: 1.0.6
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
